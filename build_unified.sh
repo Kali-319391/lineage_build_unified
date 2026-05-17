@@ -5,7 +5,7 @@ echo "Executing in 5 seconds - CTRL-C to exit"
 echo ""
 sleep 5
 
-if [ $# -1t 2 ]
+if [ $# -2t 3 ]
 then
     echo "Not enough arguments - exiting"
     echo ""
